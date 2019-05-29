@@ -1,0 +1,1247 @@
+
+body{
+	background: #f5f5f5;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+.nav-fixed-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:45px;
+	background: #027b5b;
+	z-index: 99999999;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	padding: 0px;
+	display: none;
+}
+.nav-fixed-top i{
+	font-size: 20px;
+	color: #fff;
+	margin: 0px;
+	padding: 11px 20px;
+}
+#closeNav{
+	display: none;
+}
+.icons{
+	position: relative;
+	left:10px
+}
+.nav-fixed-top .icons i{
+	position: absolute;
+	left: 0px;
+	top:0px;
+	font-size: 25px;
+	color: #fff;
+	margin: 0px;
+	padding: 11px 20px;
+}
+.nav-fixed-top button{
+	background: #bb1b2e;
+	color: #red;
+}
+
+
+.navbar .navbar-brand img {
+    width: 85px;
+    margin-top:25px;
+}
+.navigation{
+	position: fixed;
+	top:0px;
+	left: 0px;;
+	background: #1f1f1f;
+	font-family: 'Roboto', sans-serif;
+	width:260px;
+	height:100vh;
+	overflow: hidden;
+	overflow-y: auto;
+
+}
+.navigation .nav{
+	position: absolute;
+	top:150px;
+	margin:0px;
+	padding: 0px 0px 30px;
+	left:0;
+	width: 100%;
+	text-align: left;
+}
+.navigation .nav li{
+	display:block;
+	float:none;
+	position: relative;
+}
+
+.navigation .nav li a {
+    color: #eee;
+    padding: 20px 20px;
+    margin: -1px -2px;
+    font-weight: 600;
+    border-left: 10px solid transparent;
+    transition: all .3s ease-out;
+    border-bottom: 1px solid #292929;
+    font-size: 16px;
+}
+.navigation .nav li span{
+    margin-left: 100px;
+    border-radius:100px;
+    background-color: #d53f3f;
+}
+.navigation .nav li a i.nav-icon{
+	margin-right:3px; 
+}
+.navigation .nav li a i.fa-angle-down{
+	font-size: 15px;
+    position: relative;
+    top: 2px;
+	right:15px;
+	float: right
+}
+.navigation .nav li a i.clicked{
+	transform:rotate(180deg)
+}
+
+.navigation .nav   li a:focus,
+.navigation .nav li a:hover{
+	border-left:10px solid #ff5353;
+	padding:20px 10px 20px 30px;
+	background: #181818;
+}
+.navigation .nav li a.active{
+	background: #181818;
+	border-left:10px solid #ff5353;
+	padding:20px 10px 20px 30px;
+}
+
+.navigation .nav li .subul{
+	position:relative;
+	top:100%;
+	left:0px;
+	width:100%;
+	height:auto;
+	background: #181818;
+	text-align: left;
+	padding: 0px;
+	display: none;
+}
+.nav li .subul li,
+.right-nav > ul.reg-ul li{
+	color: #eee;
+	display: block;
+	float: none;
+	padding:0px ;
+	width: 100%;
+	padding:12px 0px;
+	text-align: left;
+	overflow:hidden;
+	border-bottom: 1px solid #383838;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+.nav li .subul li a,
+.right-nav > ul.reg-ul li a{
+	text-transform:unset;
+	font-size: 15px;
+	font-weight:500;
+	color: #eee;
+	padding:12px 30px;
+	text-decoration: none;
+	border-bottom: none;
+}
+.nav li .subul li:hover{
+	background: transparent;
+	padding:12px 0px 12px 3px;
+}
+
+.nav li .subul li:first-child{
+	border-top:1px solid #383838;
+}
+
+#admin-signin .form-2 span,
+#admin-signin .form-2 a{
+	color: #fff;
+}
+
+
+
+
+/* ::: Admin Main ::: */
+#admin-main{
+	min-height: 100vh;
+	margin-left:350px;
+}
+#admin-main .wrapper{
+	padding:100px 0px;
+	width: 100%;
+	max-width:85%;
+	text-align: left;
+}
+
+
+/* ::: Admin Dashboard Page ::: */
+.dashboard{
+	padding:30px 0px 0px;
+}
+.dash-block{
+	padding:10px 15px;
+	!border: 1px solid red
+}
+.dash-block .inner{
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	color: #fff;
+}
+.inner.intro{
+	color: #222;
+
+}
+.inner.intro .img{
+	padding:0px;
+	height:240px;
+	overflow:hidden;
+}
+.inner.intro img{
+	width:100%;
+	height: auto;
+	min-height: 100%;
+}
+.inner.intro .details{
+	padding:0;
+	height: 100%
+}
+.inner.intro .details h1{
+	font-weight: 300;
+   font-size:30px;
+   margin: 0px;
+   display: inline-block;
+   border-bottom: 1px solid #222;
+
+}
+.inner.intro .details h2{
+	font-weight: 700;
+   font-size: 35px;
+   margin: 10px 0px 7px;
+}
+.inner.intro .details h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+    font-size:20px;
+	 margin: 14px 0px;
+	max-width: 60%
+}
+
+.stats{
+	padding:0;
+	margin:20px 0;
+	border-radius: 5px;
+}
+.stats .section{
+	padding:0px;
+}
+.stats .section ul{
+	margin:0px;
+	padding: 0px;
+	text-align: left;
+}
+.stats .section ul li{
+	display: inline-block;
+	width: 27.05%;
+	list-style: none;
+	padding:20px 30px 8px;
+	margin:15px;
+	background: #fff;
+}
+.stats .section ul li h2 {
+	font-weight: 600;
+	color: #000;
+	font-size: 16px;
+	margin: 5px 0px;
+}
+.stats .section ul li p{
+	font-weight: 400;
+    color: #222;
+    font-size:40px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    margin-top:10px;
+}
+
+
+
+
+
+/*::: Admin Home Page --> Slider :::*/
+
+
+/*::: Admin Home Page --> All Image Sections  :::*/
+.admin-home-section{
+	padding:30px 0px 50px;
+}
+.admin-home-section ul{
+	margin:20px 0px 50px;
+	width: 100%;
+	height: auto;
+	text-align: left;
+	padding:0px;
+}
+.admin-home-section ul li {
+	position: relative;
+	width: 28%;
+	display: inline-block;
+	margin: 20px;
+	border:1px solid #ccc;
+	background: #fff;
+	height: 198px;
+	text-align: left;
+}
+.admin-home-section ul li img{
+	width: 100%;
+	height:100%;
+}
+.admin-edit{
+	padding: 0px;
+	margin-left: 1px;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	background: #ff5353;
+}
+.admin-edit i{
+	margin:0px -2px;
+	display:inline-block;
+	padding:7px 12px;
+	color: #fff;
+	background: #ff5353;
+	cursor: pointer;
+	font-size:13px;
+}
+/*.admin-edit #fafa{
+	margin:0px 0px;
+	display:inline-block;
+	padding:7px 12px;
+	color: #fff;
+	background: #ff5353;
+	cursor: pointer;
+	font-size:13px;
+}*/
+
+.admin-edit i:hover{
+	background: #b50505;
+}
+.admin-home-section ul li h2{
+  position: absolute;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  background:#212121;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding:10px 5px 10px 20px;
+  margin: 0px; 
+}
+.admin-home-section ul li h3{
+	position:relative;
+    bottom:0px;
+    left:0px;
+    color: #212121;
+    font-size:16px;
+    font-weight: 600;
+}
+
+
+/* ::: Admin Customer Page ::: */
+.users{
+	padding: 50px 0px;
+	margin:30px 0px;
+}
+.users .customer-list{
+	width: 100%;
+	text-align: left;
+	margin:30px 0px 0px;
+	padding: 0px;
+}
+.users .customer-list li{
+	display: inline-block;
+	width: 300px;
+	overflow: hidden;
+	background: #fff;
+	position: relative;
+	margin:15px 10px;
+	box-shadow: 0px 0px 10px #aba8a8;
+}
+.users .customer-list li .cs-photo{
+	width:65px;
+	height:65px;
+	overflow: hidden;
+	float: left;
+}
+.users .customer-list li .cs-photo img{
+	width: 100%;
+	height: auto;
+	min-height: 100%
+}
+.users .customer-list li .cs-content{
+	float: right;
+	width: calc(100% - 80px);
+	text-align:left;
+}
+.cs-content h3{
+	font-weight: 600;
+	font-size: 15px;
+	margin:8px 0px 3px;
+	color: #000;
+}
+
+
+
+
+/* ::: Admin Dish Page --> Categories ::: */
+#dish-categories{
+	padding:50px 0px;
+	text-align: left;
+}
+#dish-categories h1{
+	margin-bottom: 50px;
+}
+#dish-categories ul{
+	width: 100%;
+	text-align: left;
+	margin: 0px;
+	padding: 0px 20px;
+}
+#dish-categories ul li{
+	position: relative;
+	display: inline-block;
+    float: none;
+    margin:6px 7px;
+    padding: 8px 20px 8px 0px;
+    font-weight: 600;
+    text-align: left;
+	 cursor:pointer;
+	 background: rgba(0,0,0,.5);
+	 color:#fff;
+}
+#dish-categories button{
+	margin: 50px 20px;
+}
+#dish-categories ul li span{
+	margin:0px 8px 0px 10px;
+}
+
+#dish-categories ul li .edit{
+	position:absolute;
+	right:0px;
+	top:0px;
+	height:100%;
+	width: auto;
+	background:#b50505;
+	color: #fff;
+	opacity: 0;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+}
+#dish-categories ul li .edit a{
+	color: #fff;
+}
+#dish-categories ul li .edit i{
+	padding:10px 12px;
+   font-size:15px;
+	border-right: 1px solid #ccc
+}
+#dish-categories ul li:hover .edit{
+	opacity: 1
+}
+
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+
+
+
+
+/* ::: Admin Dish Page --> Dish Items ::: */
+#dish-items{
+	margin:20px 0px 100px;
+	text-align: left;
+}
+#dish-items .text-center{
+	margin-bottom: 50px;
+
+}
+.table{
+	font-family: 'Roboto', sans-serif;
+    text-align: left;
+    background: #fff;
+    box-shadow:0px 0px 20px #d6cdcd;
+}
+.table thead{
+	background:rgba(0,0,0,.7);
+	color: #fff;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th{
+	padding:10px 20px 10px;
+   font-weight: 400;
+   font-size: 16px;
+   vertical-align: middle;
+}
+.table>thead>tr>th{
+	font-weight:600;
+    font-size: 15px;
+    color: #eee
+}
+
+td.serial,
+td.dish-name{
+	font-weight: 600 !important;
+	font-size: 15px;
+}
+
+table tbody tr td .btn-status{
+	padding:4px 15px;
+	font-size:15px;
+	border-radius: 3px;
+	border: none;
+	font-weight: 600;
+}
+.btn-status.pending{
+	background: transparent;
+    color: #af0202;
+}
+.btn-status.processed{
+	background: transparent;
+    color: green;
+}
+.btn-status.canceled{
+	background: red;
+    color: #ffffff;
+}
+.table tbody tr td p{
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	display: inline-block;
+	margin: 0px;
+}
+.table tbody tr td i{
+    font-size:18px !important;
+    margin: 0px 2px;
+    color: #111;
+    cursor: pointer;
+}
+
+.table .dish-name-body img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+.add-dish{
+	position:fixed;
+    bottom:100px;
+    right: 15px;
+    width:60px;
+    height:60px;
+    background: #0f89c5;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #716f6f;
+    text-align: center;
+    cursor:pointer;
+    z-index: 100;
+}
+.add-dish img{
+	width:35px;
+	height: auto;
+	margin-top:14px;
+
+}
+
+
+
+/* ::: Admin Dish Page --> View Dish POPUP Div ::: */
+.viewDishDetails{
+	position:fixed;
+	top:40%;
+	left:50%;
+	width:800px;
+	height:auto;
+	border-bottom:4px solid #ff5353;
+	margin-left: -400px;
+	background-color: #fff;
+	z-index:-555;
+	opacity: 0;
+	box-shadow: 0px 0px 130px #8c7e7e;
+	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+.viewDishDetails .details-close{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	background-color: #ab0101;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.viewDishDetails .dish-photo{
+	background-color: #111;
+	display: inline-block;
+	width:39%;
+	height:230px;
+	float: left;
+	overflow: hidden;
+}
+.viewDishDetails .dish-photo img{
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+}
+.viewDishDetails .dish-details{
+	display: inline-block;
+	width:60%;
+	height: auto;
+}
+.viewDishDetails .dish-details .table{
+	margin:0px;
+	padding:0px;
+	box-shadow: none;
+}
+.viewDishDetails .dish-details .table th{
+	font-weight: bold;
+	color: #212121;
+	border-right:1px solid #ddd;
+}
+
+
+
+
+
+
+
+/* ::: Admin Reviews Page ::: */
+.admin-review{
+	text-align: center;
+	padding: 50px 0px 20px
+}
+.admin-review ul{
+	margin:30px 0px 60px;
+	text-align: center;
+	padding: 0px;
+}
+.admin-review ul li{
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	background: #fff;
+    color: #212121;
+    width: 300px;
+    margin: 15px;
+    padding: 29px 20px 10px;
+    text-align: center;
+    list-style: none;
+    display: inline-table;
+}
+.admin-review ul li p{
+	font-size: 16px;
+	margin-bottom:10px;
+	font-weight:400
+}
+.admin-review ul li h2{
+	font-weight: 500;
+	font-size: 16px;
+	color: #000;
+}
+.rating {
+    width: 100%;
+    height: 20px;
+    margin: 0px auto 10px;
+    text-align: center;
+    padding: 0px;
+}
+
+/*.nav {
+
+	padding-top: 50px; 
+}*/
+
+
+
+
+/* ::: Admin Orders Page --> Navigation ::: */
+#orders-nav{
+	position: fixed;
+	top:55%;
+	-webkit-transform: translateY(-55%);
+	-ms-transform: translateY(-55%);
+	-o-transform: translateY(-55%);
+	transform: translateY(-55%);
+	right:30px;
+}
+#orders-nav ul{
+	padding: 0px;
+	text-align: right;
+	box-shadow: 0px 5px 30px #848484;
+}
+#orders-nav ul li{
+	list-style: none;
+	text-align: center;
+	position: relative;
+}
+#orders-nav ul li.li-pending{
+	background:#af0202;
+}
+#orders-nav ul li.li-process{
+	background:green;
+}
+#orders-nav li a{
+	text-decoration: none;
+    margin:0px;
+    padding:8px 10px;
+    font-size:13px;
+    letter-spacing:1px;
+    color: #fff;
+    text-transform:uppercase;
+    font-weight:500;
+    font-family:'Roboto', sans-serif;
+    display:block;
+    text-align:center;
+}
+
+
+
+
+/* ::: Admin Orders Page --> Orders ::: */
+.orders{
+	padding:0px 50px;
+	margin:40px 0px 60px;
+}
+.orders .header-1{
+	margin:20px 0px 40px;
+}
+
+
+
+/* ::: Admin Orders Page --> Single Order View ::: */
+#order-details{
+	text-align: center;
+	padding:40px 90px;
+}
+#order-details .header-1{
+	margin:20px 0px 40px;
+}
+#order-details .table .dish-name-body{
+	padding: 0px;
+}
+.cart-tatals{
+    padding:20px 50px 90px;
+    text-align: center;
+}
+.cart-tatals p{
+    font-size:18px;
+    font-weight:600;
+    color: #4e4e4e;
+}
+.cart-tatals .total{
+    display: inline-block;
+    position: relative;
+    margin-top:5px;
+    font-size:20px;
+    font-weight:600;
+    color: #000
+}
+.cart-tatals .total::before{
+    position: absolute;
+    content:"";
+    top:-5px;
+    left:calc(0% - 25%);
+    height: 1px ;
+    background:#000063;
+    width: 150%;
+}
+.cart-tatals p span{
+    font-weight:500;
+    color:#000;
+    font-size:14px;
+    padding-left: 2px;
+}
+
+
+
+/* ::: Admin Reservation Page --> Search Form ::: */
+.reserve-date{
+	width:450px;
+	margin:20px 0 0 50px;
+	padding:15px 10px;
+}
+.reserve-date form{
+}
+.reserve-date form label{
+	margin:15px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	font-size:16px;
+}
+.reserve-date form input{
+	border-radius: 0px;
+	height: 35px;
+	padding-left: 30px;
+}
+.reserve-date form input:focus,
+.reserve-date form input:hover,
+.reserve-date form input:active{
+	box-shadow: none;
+	border:1px solid #ff5353
+}
+.reserve-date form button{
+	padding:11px 20px;
+	color: #fff;
+	border: none;
+	margin-top:0px
+}
+.pad0{
+	border: 0px;
+	padding: 0px !important
+}
+
+
+
+/* ::: Admin Reservation Page --> Reservation ::: */
+.table-row{
+	padding:15px 60px;
+	margin:0px 0px 20px;
+}
+.table-row .header-1{
+	margin-bottom:40px;
+}
+
+
+
+
+
+
+
+/* ::: Admin Invoice Page --> All Invoices ::: */
+#invoice-container{
+	margin:50px 0px;
+}
+#invoice-container .header-1{
+	margin:0px 0px 40px;
+}
+#invoice-container .invoice-ul{
+	padding: 0px;
+}
+#invoice-container .invoice-ul li{
+	position: relative;
+	display: inline-block;
+	list-style: none;
+	height:200px;
+	width:150px;
+	margin:10px;
+	background: #fff;
+	box-shadow:0px 0px 15px #ccc;
+	text-align: left;
+	padding: 15px;
+	cursor: pointer;
+}
+#invoice-container .invoice-ul li h2{
+	margin:20px 0px 40px;
+	font-size: 18px;
+	font-weight: 600;
+}
+#invoice-container a:nth-child(1n) li{
+	border-bottom: 2px solid #7C73E6
+}
+#invoice-container a:nth-child(1n) li h2,
+#invoice-container a:nth-child(1n) li h3{
+	color: #7C73E6
+}
+#invoice-container a:nth-child(2n) li{
+	border-bottom: 2px solid #00BBF0
+}
+#invoice-container a:nth-child(2n) li h2,
+#invoice-container a:nth-child(2n) li h3{
+	color: #00BBF0
+}
+#invoice-container a:nth-child(3n) li{
+	border-bottom: 2px solid #FD367E
+}
+#invoice-container a:nth-child(3n) li h2,
+#invoice-container a:nth-child(3n) li h3{
+	color: #FD367E
+}
+#invoice-container a:nth-child(4n) li{
+	border-bottom: 2px solid #40A798
+}
+#invoice-container a:nth-child(4n) li h2,
+#invoice-container a:nth-child(4n) li h3{
+	color: #40A798
+}
+
+#invoice-container ul li h3{
+	margin: 0px;
+   font-size:16px;
+   font-weight: 600;
+   font-family: 'Roboto', sans-serif;
+}
+#invoice-container ul li p{
+	margin-top:5px;
+	font-size:14px;
+	font-weight:500;
+	color: #212121
+}
+#invoice-container ul li p.total{
+	margin-top:10px;
+	font-weight:600;
+	font-size:16px;
+	color: #212121
+}
+
+
+
+/* ::: Admin Invoice Page --> Single Invoice ::: */
+.inv-options{
+	margin:0px 0px 40px;
+}
+.inv-options button{
+	margin: 0px 5px;
+}
+.view-invoice{
+	padding:30px 50px; 
+}
+
+.invoice{
+	font-family: 'Roboto', sans-serif;
+	margin:30px 0px;
+	width:595px;
+	height: 842px;
+	min-height:842px;
+	padding:30px 30px 0px;
+	background: #fff;
+	!border: 1px solid #ccc;
+	color: #000;
+	text-align:center;
+	box-shadow: 0px 0px 15px #ccc
+}
+.inv-header{
+	text-align: center;
+	width: 100%;
+	border-bottom: 2px solid #05b171;
+	height: 190px;
+}
+.inv-header .invNo{
+	color: #05b171;
+	font-size:18px;
+	font-weight: 700;
+	margin: 0px;
+}
+.inv-header .compInfo{
+	float: left;
+	width: 50%;
+	height:auto;
+	text-align: left;
+	margin-top: 15px;
+}
+.compInfo h2{
+	font-size:17px;
+	font-weight:600;
+	margin:0px;
+	margin-bottom:10px;
+	color: #05b171;
+}
+.compInfo p{
+	font-size:14px;
+   font-weight: 400;
+   margin: 0px;
+}
+.inv-header .logo{
+	float: right;
+   text-align: right;
+   width: 50%;
+	padding-top:40px;
+}
+.inv-header .logo img{
+	width: 90px;
+	height: auto;
+}
+
+.customerInfo{
+	width: 100%;
+	text-align:left;
+	height:140px;
+}
+.customerInfo .billing,
+.customerInfo .shipping{
+	width:50%;
+	text-align: left;
+	float: left;
+}
+.customerInfo .shipping{
+	text-align: right;
+	float: right;
+}
+.customerInfo h2{
+	font-size:15px;
+   font-weight:800;
+   margin-bottom: 8px;
+   display: inline-block;
+   padding:0px 0px 5px;
+   border-bottom: 1px solid #ccc
+}
+.customerInfo p{
+	font-size:15px;
+	margin: 0px;
+}
+
+.invoice .table{
+   border: 1px solid #ddd;
+	box-shadow: none;
+}
+.invoice .items{
+	position: relative;
+	top:20px;
+}
+.invoice .items .table>tbody>tr>td.qty{
+	width: 20px;
+   text-align: center;
+}
+.invoice .items .table>tbody>tr>td.name{
+	max-width: 180px;
+}
+.invoice .items .table>tbody>tr>td,
+.invoice .items .table>thead>tr>th{
+	font-size: 14px;
+	padding:8px 10px;
+}
+
+
+.invoice .totals{
+	width: 100%;
+	text-align: right;
+	margin-top:65px;
+	display: block;
+}
+.invoice .totals p{
+	margin: 0px;
+}
+.invoice .totals .total{
+    display: inline-block;
+    position: relative;
+    margin-top:5px;
+    font-size:18px;
+    font-weight:600;
+    color: #000
+}
+.invoice .totals .total::before{
+   position: absolute;
+   content: "";
+   top: -5px;
+   right: 0px;
+   height: 1px;
+   background: #000063;
+   width: 120%;
+}
+.invoice .totals p span{
+    font-weight:500;
+    color:#000;
+    font-size:14px;
+    padding-left: 2px;
+}
+
+
+
+
+/* ::: Admin Messages Page ::: */
+#messages{
+	height:500px;
+	margin-top:40px;
+}
+#messages .names,
+#messages .message{
+	height:auto;
+	overflow: hidden;
+	overflow-y: auto;	
+}
+#messages .names{
+	float: left;
+	width: 230px;
+	background:rgba(0,0,0,.7);
+}
+#messages .message{
+	float: right;
+	width:calc(100% - 230px);
+	padding:30px 50px 50px;
+	background-color: #fff;
+}
+
+#messages .names ul{
+	width: 100%;
+	text-align: left;
+	margin:0px;
+	padding:10px 0px 0px;
+}
+#messages .names ul li{
+	position: relative;
+	display: block;
+	list-style: none;
+	height:55px;
+	border-bottom:1px solid #3e3b3b;
+	padding:10px 5px 10px 15px;
+	cursor: pointer;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+#messages .names ul li .deleteMessage{
+	position: absolute;
+   top: 0px;
+   right: 0px;
+   height: 100%;
+   font-size: 20px;
+   color: red;
+   margin: 0px;
+   padding:11px 9px;
+   opacity: 0;
+   -webkit-transition: all .2s ease-out;
+   -o-transition: all .2s ease-out;
+   transition: all .2s ease-out;
+}
+#messages .names ul li:hover .deleteMessage{
+	opacity: 1
+}
+#messages .names ul li h3{
+	font-weight:600;
+	font-size:15px;
+	margin:0px;
+	color: #fff;
+}
+#messages .names ul li p{
+	font-weight:400;
+	font-size:14px;
+	margin: 0px;
+	color: #d4cfcf;
+}
+#messages .names ul li:hover{
+	padding:10px 0px 10px 20px;
+}
+
+
+#messages .message p{
+	font-weight: 500;
+	font-size: 18px;
+}
+#messages .message button{
+	margin-top:20px;
+}
+#messages .message p.m-date{
+	font-weight:500;
+	font-size:15px;
+	margin-bottom:15px;
+}
+#messages .message p.m-name{
+	font-weight: 600;
+	color: #0097af;
+	margin-bottom:0px;
+}
+#messages .message p.m-email{
+	color: #636161;
+	margin-bottom:0px;
+	font-size:15px;
+	font-weight:600;
+
+}
+
+
+
+
+
+
+
+/* ::: Admin Website Details Page ::: */
+#siteDetails{
+	padding: 50px;
+}
+
+
+
+/* ::: Admin Profile Page ::: */
+#admin-profile{
+	padding: 50px;
+}
+
+
+
+/* ::: Admin Signin Page ::: */
+#admin-signin{
+	height: 100vh;
+   padding:90px 0px 20px;
+   background-color:#111;
+   position: relative;
+   overflow: hidden;
+}
+#admin-signin .signin-form .login-logo{
+	width: 140px;
+	height: auto;
+	margin:20px 0px;
+}
+#admin-signin .signin-form{
+	width:400px;
+	height: auto;
+	padding:50px;
+	margin:0px auto;
+	color: #000;
+	text-align: center;
+}
+#admin-signin .signin-form .input-group .input-group-addon{
+	 background: #ff5353;
+    border: 1px solid #ff5353;
+    color: #fff;
+}
+#admin-signin .signin-form .input-group{
+	margin:10px 0px;
+}
+
+
+
+/* ::: Admin Register Page ::: */
+
+#admin-reg .logo{
+	width:90px;
+	height: auto;
+	margin-bottom:0px;
+}
+
+
+
+/* ::: Admin Footer Section ::: */
+#footer{
+	background: #111111;
+	text-align: center;
+	color: #fff;
+	padding-top:15px;
+	padding-bottom:5px;
+	font-size:16px;
+}
+
+

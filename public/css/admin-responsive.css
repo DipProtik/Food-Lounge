@@ -1,0 +1,330 @@
+@media (min-width:0px) and (max-width:1440px){
+	#admin-main {
+		margin-left: 300px;
+	}
+	#admin-main .wrapper {
+		padding:40px 0px 50px;
+		max-width: 100%;
+	}
+	.team-list li .team-photo {
+		height: 190px;
+	}
+	.admin-home-section ul li .img {
+		width: 100%;
+		height: 200px;
+	}
+	/*.nav{
+		margin-top: 50px;
+	}*/
+	
+}
+@media (min-width:0px) and (max-width:1366px){
+
+	.table>tbody>tr>td,
+	.table>tbody>tr>th,
+	.table>tfoot>tr>td,
+	.table>tfoot>tr>th,
+	.table>thead>tr>td,
+	.table>thead>tr>th{
+		padding:7px 15px 7px;
+		font-weight: 400;
+		font-size: 15px;
+		vertical-align: middle;
+	}
+	.table>thead>tr>th{
+		font-weight:600;
+		font-size: 15px;
+		color: #eee
+	}
+	/*.nav{
+		margin-top: 50px;
+	}
+	*/
+	
+}
+
+
+@media (min-width:0px) and (max-width:1280px){
+	.nav-fixed-top {
+		display: flex;
+	}
+	.navigation {
+		left: -260px;
+		top:45px;
+
+	}
+	/*.nav{
+		margin-top: 20px;
+	}*/
+	
+	#admin-main {
+		margin-left: auto;
+	}
+	#admin-main .wrapper {
+		padding: 60px 50px 30px;
+		max-width: 90%;
+		overflow-x:auto;
+	} 
+	#footer {
+		padding-left: 15px;
+	}
+	
+	#admin-main .wrapper {
+		max-width: 100%;
+	}
+	.form-3-wrapper {
+		max-width: 100%;
+	}	
+}
+@media (min-width:0px) and (max-width:1080px){
+	#footer {
+		font-size: 13px;
+	}
+}
+@media (min-width:0px) and (max-width:991px){
+	#admin-main .wrapper{
+		padding: 60px 20px 30px;
+	}
+}
+@media (min-width:0px) and (max-width:850px){
+	.stats .section ul li h2 {
+		font-size: 13px;
+	}
+	.stats .section ul li p {
+		font-weight: 400;
+		color: #027b5b;
+		font-size: 25px;
+	}
+	#dash-slider .slide-wrapper .slide {
+		flex-basis: 27%;
+		height: 180px;
+	}
+	.header-1 {
+		font-weight: 700;
+		font-size: 18px;
+	}
+	.btn1 {
+		font-size: 12px;
+	}
+	.team-list li .team-photo {
+		height: 160px;
+	}
+	.team-list li .content h3 {
+		font-weight: 600;
+		font-size: 13px;
+	}
+	.team-list li .content p {
+		font-size: 12px;
+	}
+	.admin-home-section ul li .img {
+		width: 100%;
+		height: 160px;
+	}
+	.admin-home-section ul li .content h2 {
+		color: #212121;
+		font-size: 13px;
+	}
+	.admin-home-section ul li .content p {
+		color: #272727;
+		font-size: 12px;
+	}
+	.admin-galleries .photo {
+		flex-basis: 27%;
+	 }
+}
+@media (min-width:0px) and (max-width:768px){
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+		padding: 4px 10px 4px;
+		font-size: 13px;
+	}
+	.table tbody tr td i {
+		font-size: 15px !important;
+		margin: 6px 0px;
+		color: #111;
+		cursor: pointer;
+		display: block;
+	}
+	#dash-slider .slide-wrapper .slide {
+		flex-basis: 43%;
+		height: 210px
+	}
+	.team-list li {
+		flex-basis: 43%;
+	}
+	.team-list li .team-photo {
+		height: 190px;
+	}
+	
+	.admin-home-section ul li {
+		flex-basis: 46%;
+	}
+	.reviews li {
+		align-self: stretch;
+		flex-basis: 43% ;
+	}
+	#profile {
+		padding: 40px 0px;
+	}
+	#class-list {
+		margin: 48px 0px 50px;
+		text-align: left;
+	}
+	.btn1 {
+		font-size: 12px;
+		display: block;
+		margin-left: 0px !important;
+   }
+	.classInfo ul li p.heading,
+	#profile .userInfo ul li p.heading,
+	#profile .child .info ul li p.heading{
+		width: 100%;
+		border-right: none;
+		border-bottom: 1px solid #d6d6d6;
+	}
+	.classInfo ul li p.heading,
+	.classInfo ul li p,
+	#profile .userInfo ul li p,
+	#profile .child .info ul li p{
+		width: 100%;
+	}
+	.admin-galleries .photo {
+		flex-basis: 40%;
+	}
+	.all-message{
+		display: none;
+	}
+	.all-names {
+		width: 100% !important;
+		padding: 0px 20px;
+	}
+	.v-names{
+		display: none;
+	}
+	.v-message{
+		width: 100% !important;
+	}
+	.messages{
+		box-shadow: none;
+	}
+	.back-messages{
+		display: block
+	}
+	.btn1::after {
+		top: 9px;
+		font-size: 10px;
+  }
+  .messages .message p{
+	font-weight: 400;
+	font-size: 15px;
+ }
+}
+
+@media (min-width:0px) and (max-width:500px){
+	#messages{
+		padding: 50px 0px;
+	}
+	.adminlogo {
+		width: 45%;
+		height: auto;
+		margin: 25px 10px;
+	}
+	.navigation .nav {
+		position: absolute;
+		top: 145px;
+	}
+	.inner.intro {
+		padding: 0;
+	}
+	.inner.intro .details h2 {
+		font-size: 25px;
+	}
+	.inner.intro .details h1 {
+		font-weight: 300;
+		font-size: 16px;
+	}
+	#admin-main .wrapper {
+		padding: 30px 20px 30px;
+	}
+	element.style {
+		font-weight: bold;
+		margin: 15px 0;
+		color: #F42A41;
+		font-size: 14px;
+  }
+	.stats .section ul{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: left;
+		align-items: flex-start
+	}
+	.stats .section ul li{
+		flex-basis: 100%;
+		align-self: stretch
+	}
+	.stats {
+		margin:5px 0px;
+		box-shadow:none
+	}
+	#dash-slider .slide-wrapper .slide {
+		flex-basis: 100%;
+		height: 233px;
+		margin: 15px 0;
+	}
+	.team-list li {
+		flex-basis: 100%;
+	}
+	.team-list li .team-photo {
+		height: 230px;
+	}
+	.admin-home-section ul li {
+		flex-basis: 100%;
+	}
+	.admin-home-section ul li .img {
+		width: 100%;
+		height: 215px;
+	}
+	#admin-profile {
+		padding: 50px 10px;
+	}
+	.admin-galleries .photo {
+		flex-basis:100%;
+		margin: 15px 0px;
+		height: 240px;
+	}
+	#profile h2 {
+		font-size:20px;
+	}
+	.detailsDiv .btn1 {
+		margin-bottom: 20px;
+	}
+	#dish-items{
+		padding: 0 20px;
+	}
+	.reviews li {
+		align-self: stretch;
+		flex-basis: 100%;
+	}
+	.reviews {
+		padding: 30px 0;
+	}
+	.form-3-wrapper h2 {
+		font-size: 20px;
+	}
+	.form-3-wrapper {
+		padding: 50px 0px 50px 25px;
+	}
+	#reviews {
+		padding-left:25px;
+   }
+}
+@media (min-width:0px) and (max-width:450px){}
+@media (min-width:0px) and (max-width:430px){
+	#admin-main .wrapper {
+		padding: 30px 5px 30px;
+	}
+	.inner.intro .details p{
+		font-size: 14px !important;
+	}
+}
+@media (min-width:0px) and (max-width:375px){}
+@media (min-width:0px) and (max-width:320px){}
